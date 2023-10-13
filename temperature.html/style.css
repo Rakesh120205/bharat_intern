@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.142),rgba(0, 0, 0, 0.751)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/819556270/photo/thermometer-on-a-green-nature-background-and-temperature-measuring-environment-concept.jpg?s=612x612&w=0&k=20&c=cZ1I7hgWWTswzNoAOeIek6AYmD3I62FvMJlqCHtlCmE=');
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 90px 10%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+h1 {
+    margin-bottom: 100px 5%;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select, button {
+    padding: 10px 8px;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
